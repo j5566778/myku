@@ -1,0 +1,256 @@
+@import url('normalize.css');
+
+body{
+    font-size:16px;
+    font-family:Helvetica;
+    background:#F5F6FA;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height:1rem;
+    background:#0078E6;
+    /*vertical-align: middle;*/
+    text-align:center;
+}
+.header img{
+    width: 0.7rem;
+    height: 0.7rem;
+    /*float: left;*/
+    display: inline-block;
+    line-height:1.0rem;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.header h2{
+    margin:0 auto;
+    color:#fff;
+    font-size:20px;
+    display: inline-block;
+    /*text-align:center;*/
+    line-height:1rem;
+
+}
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    /*height: 3.6rem;*/
+}
+.banner .b1 img{
+    width: 100%;
+}
+
+
+/*信息*/
+section{
+    width: 100%;
+    height:auto;
+    background:#F5F6FA;
+    margin-top:0.25rem;
+}
+.sect:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.sect{
+    margin:0 0.2rem;
+    margin-right:0;
+}
+.sect a{
+    width: 1.56rem;
+    height: 1.56rem;
+    background:#fff;
+    border-radius:0.26rem;
+    margin-right:0.29rem;
+    float: left;
+    margin-bottom:0.8rem;
+    text-decoration: none;
+    color:#000000;
+    box-shadow:0.08rem 0 0.15rem rgba(210,210,210,0.1),0 0.08rem 0.15rem rgba(210,210,210,0.1);
+}
+.sect a:nth-child(4n){
+    margin-right:0;
+}
+.sect0{
+    display: block;
+    text-align:center;
+    line-height:1.6rem;
+}
+.sect0 img{
+    vertical-align: middle;
+    /*width: 0.95rem;*/
+    height: 0.95rem;
+}
+.sect1{
+    display: block;
+    text-align:center;
+    font-size:14px;
+    line-height:0.8rem;
+}
+
+/*服务体系*/
+.FWt{
+    width:100%;
+    height:auto;
+    background:#fff;
+    font-size:12px;
+}
+.swtx1{
+    display: block;
+    height:0.63rem;
+    text-align:center;
+    line-height:0.63rem;
+    color:#0276BC;
+}
+.swtx2{
+    height:2.18rem;
+    border-top:0.01rem solid #E8E8E8;
+    border-bottom:0.01rem solid #E8E8E8;
+}
+.swz0{
+    width: 50%;
+    height:100%;
+    float: left;
+}
+.swz0 a{
+    display: block;
+    margin-top:0.25rem;
+}
+.swz0:nth-child(1){
+    border-right:0.01rem solid #E8E8E8;
+}
+.swz0 p:nth-child(1){
+    margin-left:0.16rem;
+    float: left;
+}
+.swz1{
+    color:#000000;
+}
+.swz2{
+    color:#999999;
+}
+.swz0 p:nth-child(2){
+    margin-left:.5rem;
+    float: left;
+}
+.swz0 p img{
+    width: 1.32rem;
+    width: 1.32rem;
+}
+
+
+.swtx3{
+    height:1.38rem;
+    border-bottom:0.01rem solid #E8E8E8;
+    margin-bottom:0.2rem;
+}
+.swbt1{
+    width:33.3333%;
+    height: 100%;
+    float: left;
+    border-right:0.01rem solid #E8E8E8;
+}
+.swbt1:nth-child(3){
+    border-right:0;
+}
+.swbt1 p{
+    float: left;
+    margin-left:0.1rem;
+    text-align:left;
+}
+
+.swbt1 p:nth-child(1){
+    margin-top:.3rem;
+    line-height:.8rem;
+}
+.swbt1 p:nth-child(2){
+    margin-top:0.3rem;
+    line-height:.38rem;
+}
+/*62*/
+.swbt1 img{
+    width: 0.62rem;
+    height:0.62rem;
+}
+.btz1{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    font-size:10px;
+}
+
+/*电话*/
+.pho{
+    width: 100%;
+    height:0.8rem;
+    margin-bottom: 0.4rem;
+    background:#fff;
+    vertical-align: middle;
+}
+.pho a{
+    width: 31%;
+    height:100%;
+    display: block;
+    float: left;
+}
+.pho a:nth-child(1){
+    /*width:33.333%;*/
+    margin-left:0.2rem;
+    line-height:0.8rem;
+}
+.ims1{
+    width: 0.31rem;
+    height: 0.31rem;
+}
+
+.ips1{
+    font-size:14px;
+    color:#000000;
+}
+.pho a:nth-child(2){
+    width: 2.37rem;
+    height: 0.8rem;
+    background:#FF7E00;
+    font-weight:bold;
+    text-align:center;
+    margin:0 auto;
+    border-radius:8px;
+    vertical-align: middle;
+    box-shadow:0.1rem 0.1rem 0.2rem rgba(255,126,0,0.2),0 -0.1rem 0.1rem rgba(255,126,0,0.2),-0.1rem 0 0.1rem rgba(255,126,0,0.2);
+}
+
+.ims2{
+    margin-top:0.16rem;
+    margin-left:0.18rem;
+    line-height:0.8rem;
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    vertical-align: middle;
+}
+.ips2{
+    line-height:0.8rem;
+    /*margin-top:0.16rem;*/
+    float: left;
+    display: inline-block;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+}
+
+.pho a:nth-child(3){
+    padding-left:0.4rem;
+    float: right;
+    line-height:0.8rem;
+}
+
+
+
+
