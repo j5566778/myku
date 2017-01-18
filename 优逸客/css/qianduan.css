@@ -1,0 +1,314 @@
+@import url('normalize.css');
+
+body{
+    font-size:16px;
+    font-family:Helvetica;
+    background:#F5F6FA;
+}
+i{
+    font-style:normal;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height:1rem;
+    background:#0078E6;
+    /*vertical-align: middle;*/
+    text-align:center;
+}
+.header img{
+    width: 0.7rem;
+    height: 0.7rem;
+    /*float: left;*/
+    display: inline-block;
+    line-height:1.0rem;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.header h2{
+    margin:0 auto;
+    color:#fff;
+    font-size:20px;
+    display: inline-block;
+    /*text-align:center;*/
+    line-height:1rem;
+
+}
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    /*height: 3.6rem;*/
+}
+.banner .b1 img{
+    width: 100%;
+}
+
+
+
+/*面包屑*/
+.mbx{
+    width: 90%;
+    heigth:auto;
+    margin-left:0.23rem;
+    margin-top:0.28rem;
+    color:#494747;
+    font-size:11px;
+}
+.mbx span:nth-child(2) img{
+    display: inline-block;
+    margin-top:0.05rem;
+    height:0.2rem;
+}
+
+
+/*关于4*/
+.se41{
+    width: 100%;
+    padding:0 0.47rem;
+}
+.se41 .gywo{
+    width: 25%;
+    float: left;
+}
+.gywo img{
+    width: 1.21rem;
+    height: 1.21rem;
+    display: block;
+    margin:0 auto 0.2rem;
+}
+.gywo span{
+    font-size:12px;
+    display: block;
+    text-align:center;
+    margin-bottom:0.1rem;
+}
+
+
+/*内容*/
+section{
+    width: 7.02rem;
+    height:auto;
+    background:#FFF;
+    margin:0.24rem;
+    padding:0.2rem 0;
+}
+section:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.title{
+    width: 100%;
+    height: 0.67rem;
+    display: block;
+    padding:0 0.2rem;
+}
+.blues{
+    width: 0.04rem;
+    height: 0.2rem;
+    background:#01B5FF;
+    display: inline-block;
+    float: left;
+    margin-top:0.32rem;
+}
+.seh2 h2{
+    margin:0;
+    max-width:5.2rem;
+    outline:none;
+    font-size: 12px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-bottom:0.1rem;
+}
+.seh2{
+    margin-bottom:0.1rem;
+    margin-top:0.29rem;
+    margin-left:0.15rem;
+    width: 97%;
+    float: left;
+    border-bottom:0.01rem dashed #999999;
+}
+section article{
+    padding-left:0.13rem;
+    font-size:12px;
+    text-align:justify;
+    line-height:1.4;
+    color:#666;
+    padding:0 0.2rem;
+    padding-left:0.32rem;
+}
+
+section article:nth-child(3){
+    color: #02B5FF;
+    font-weight:600;
+}
+section article:nth-child(5){
+    color: #02B5FF;
+    font-weight:600;
+}
+section article:nth-child(7){
+    color: #02B5FF;
+    font-weight:600;
+}
+
+
+/*行业*/
+.tup{
+    width: 100%;
+    height:auto;
+    padding:0.1rem 0.5rem;
+}
+.tup img{
+    width: 100%;
+}
+.tup span{
+    display: block;
+    margin-top:0.15rem;
+    text-align:center;
+}
+
+
+/*就业*/
+.jyd1{
+    /*width: 100%;*/
+    float: left;
+    margin:0.05rem 0;
+    padding-left:0.05rem;
+}
+.boths:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.jyd1 img{
+    width: 0.56rem;
+    height: 0.56rem;
+}
+
+.jyd2{
+    float: left;
+    margin:0.05rem 0.2rem;
+}
+.jyd2 span:nth-child(1){
+    display: block;
+    font-size:12px;
+    color:#02B5FF;
+    font-weight:500;
+}
+.jyd2 span:nth-child(2){
+    display: block;
+    font-size:10px;
+    color:#3E3A3A;
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+
+
+/*就业薪资*/
+
+.jyxz1{
+    width: 100%;
+    margin:0;
+
+}
+.jyxz1 span{
+    display: inline-block;
+    text-align:center;
+}
+
+.jyxz1 span:nth-child(1){
+    width: 20%;
+}
+.jyxz1 span:nth-child(2){
+    width: 20%;
+}
+.jyxz1 span:nth-child(3){
+    width: 60%;
+
+}
+
+.jyxz2{
+    margin:0;
+    width: 100%;
+    /*height:3.2rem;*/
+    border-left:1px dashed #01B5FF;
+}
+.jyxz2 span{
+    width: 100%;
+    display: inline-block;
+    text-align:center;
+    font-size:12px;
+    text-align:justify;
+    height:0.3rem;
+    margin:0.16rem 0;
+    position: relative;
+}
+.active:after{
+    content: '';
+    top:2px;
+    left:-6.8px;
+    width:0.23rem;
+    height: 0.23rem;
+    position: absolute;
+    background:url("../images/cxcxty8.png") no-repeat center center/0.23rem 0.23rem;
+}
+.jyxz2 span i{
+    display: inline-block;
+    text-align:center;
+    line-height:0.3rem;
+    /*margin-left:0.14rem;*/
+}
+
+.jyxz2 span:after{
+    content:'';
+    display: inline-block;
+}
+.jyxz2 span i:nth-child(1){
+    width: 20%;
+}
+.jyxz2 span i:nth-child(2){
+    width: 20%;
+}
+.jyxz2 span i:nth-child(3){
+    width: 60%;
+}
+
+
+/*课程安排*/
+.bbximg1{
+    margin:0.3rem 0 0 0;
+    width: 100%;
+}
+.bbximg1 img{
+    width: 100%;
+}
+
+
+
+
+
+
+footer{
+    text-align:center;
+    font-size:10px;
+    display: block;
+    margin-bottom:0.1rem;
+    padding-top:0.1rem;
+    padding-bottom:0.1rem;
+}
+footer span a{
+    font-size:10px;
+    color:#666;
+}
+footer span{
+    display: block;
+}
+
+

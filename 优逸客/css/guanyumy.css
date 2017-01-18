@@ -1,0 +1,198 @@
+@import url('normalize.css');
+
+body{
+    font-size:16px;
+    font-family:Helvetica;
+    background:#F5F6FA;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height:1rem;
+    background:#0078E6;
+    /*vertical-align: middle;*/
+    text-align:center;
+}
+.header img{
+    width: 0.7rem;
+    height: 0.7rem;
+    /*float: left;*/
+    display: inline-block;
+    line-height:1.0rem;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.header h2{
+    margin:0 auto;
+    color:#fff;
+    font-size:20px;
+    display: inline-block;
+    /*text-align:center;*/
+    line-height:1rem;
+
+}
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    /*height: 3.6rem;*/
+}
+.banner .b1 img{
+    width: 100%;
+}
+
+
+
+/*面包屑*/
+.mbx{
+    width: 90%;
+    heigth:auto;
+    margin-left:0.23rem;
+    margin-top:0.28rem;
+    color:#494747;
+    font-size:11px;
+}
+.mbx span:nth-child(2) img{
+    display: inline-block;
+    margin-top:0.05rem;
+    height:0.2rem;
+}
+
+/*内容*/
+section{
+    width: 7.02rem;
+    height:auto;
+    background:#FFF;
+    margin:0.1rem 0.24rem;
+    padding:0.2rem;
+
+}
+section:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.title{
+    width: 100%;
+    height: 0.67rem;
+    display: block;
+
+}
+.blues{
+    width: 0.04rem;
+    height: 0.2rem;
+    background:#01B5FF;
+    display: inline-block;
+    float: left;
+    margin-top:0.32rem;
+}
+.seh2 h2{
+    margin:0;
+    max-width:5.2rem;
+    outline:none;
+    font-size: 12px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-bottom:0.1rem;
+}
+.seh2{
+    margin-bottom:0.1rem;
+    margin-top:0.29rem;
+    margin-left:0.15rem;
+    width: 97%;
+    float: left;
+    border-bottom:0.01rem dashed #999999;
+}
+section article{
+    padding-left:0.13rem;
+    font-size:12px;
+    text-align:justify;
+    line-height:1.4;
+    color:#666;
+
+}
+
+.ydd{
+    width: 100%;
+    padding:0 .35rem;
+    margin-top:0.3rem;
+}
+.ydd div{
+    width: 33.333%;
+    float: left;
+}
+.yuan1{
+    width: 1.33rem;
+    height: 1.33rem;
+    line-height:1.33rem;
+    font-size:13px;
+    color:#fff;
+    text-align:center;
+    background:url("../images/blues34.png") no-repeat center center/1.33rem;
+}
+.yuan2{
+    width: 1.33rem;
+    height: 1.33rem;
+    line-height:1.33rem;
+    font-size:13px;
+    color:#fff;
+    text-align:center;
+    background:url("../images/orange38.png") no-repeat center center/1.33rem;
+}
+.yuan3{
+    width: 1.33rem;
+    height: 1.33rem;
+    line-height:1.33rem;
+    font-size:13px;
+    color:#fff;
+    text-align:center;
+    background:url("../images/pink81.png") no-repeat center center/1.33rem;
+}
+
+.sehd3{
+    margin-left:0.15rem;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #666;
+}
+
+
+/*报名*/
+.baom{
+    width: 1.68rem;
+    height: 1.68rem;
+    line-height:1.68rem;
+    font-size:13px;
+    color:#fff;
+    text-align:center;
+    background:url("../images/pink81.png") no-repeat center center/1.33rem;
+    letter-spacing: -0.03rem;
+    margin:0.2rem auto;
+}
+
+
+
+
+/*底部*/
+footer{
+    text-align:center;
+    font-size:10px;
+    display: block;
+    margin-bottom:0.1rem;
+    padding-top:0.1rem;
+    padding-bottom:0.1rem;
+}
+footer span a{
+    font-size:10px;
+    color:#666;
+}
+footer span{
+    display: block;
+}
+
+
